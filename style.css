@@ -1,0 +1,32 @@
+* {
+	font-size: 100%
+}
+
+header {
+
+}
+
+aside {
+	float: right;
+	max-width: 30%;
+}
+
+article {
+	
+}
+
+main {
+	float: left;
+}
+
+footer {
+	clear: both;
+}
+
+label {
+	display: block;
+}
+
+fieldset {
+	margin-bottom: 30px;
+}
