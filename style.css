@@ -2,30 +2,60 @@
 	font-size: 100%
 }
 
-header {
-
+html {
+	font-size: 16px; 
+	font-family: Helvetica, arial, tahoma, sans-serif;
+	color: #777;
+	line-height: 1.5;
 }
+
+.wrapper {
+	width: 90%;
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 30px
+}
+
+label, input, textarea {
+	display: block;
+}
+
+fieldset {
+	margin-bottom: 30px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+* {
+	font-size: 100%
+}
+
 
 aside {
 	float: right;
 	max-width: 30%;
 }
 
-article {
-	
-}
-
-main {
-	float: left;
-}
 
 footer {
 	clear: both;
 }
 
-label {
-	display: block;
-}
 
 fieldset {
 	margin-bottom: 30px;
